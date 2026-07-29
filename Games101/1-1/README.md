@@ -56,7 +56,8 @@ P3
    - 打开终端，执行 `python 1-1_hello_ppm.py`
 
 5. **验证结果**
-   - **VS Code 插件（推荐）：** 搜索安装 **"PPM/PNM Viewer"**，安装后在文件列表点击 `output_1-1.ppm` 即可预览
+   - **PyCharm（推荐）：** 直接点击 `output_1-1.ppm` 文件，PyCharm 内置图片查看器会自动显示
+   - **VS Code：** 搜索安装 **"PPM/PNM Viewer"** 插件，安装后在文件列表点击即可预览
    - 或在线上传查看（搜索 "PPM viewer online"）
    - 或安装 ImageMagick 转 PNG：`winget install ImageMagick.ImageMagick`，然后 `magick output_1-1.ppm output_1-1.png`
    - 正确结果：左上角黑色 → 右上角红色 → 左下角蓝色 → 右下角紫红色（红+蓝）的渐变
