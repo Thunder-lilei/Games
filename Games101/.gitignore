@@ -1,6 +1,2 @@
 # IDE
 .idea/
-
-# 输出图片
-*.ppm
-*.png
