@@ -1,2 +1,11 @@
 # IDE
 .idea/
+.vs/
+
+# Build outputs (CMake)
+*/build/
+*/out/
+
+# OS files
+Thumbs.db
+.DS_Store
