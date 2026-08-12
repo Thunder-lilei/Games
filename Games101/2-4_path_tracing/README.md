@@ -185,11 +185,11 @@ Debug 构建（VS 默认）也能跑，只是明显更慢：把 `--config Releas
 | 后墙平均亮度 | 187.6 | 229.1（高 SPP 更可靠采到光源） |
 
 - 场景小，直接朴素遍历即可，无需 BVH（2-3 的加速在更大场景才有意义）
-- 换更高 SPP：把 [main.cpp](file:///c:/Learn/Games/Games101/2-4_path_tracing/main.cpp) 的 `SPP_LOW / SPP_HIGH` 改大重跑即可
+- 换更高 SPP：把 [main.cpp](main.cpp) 的 `SPP_LOW / SPP_HIGH` 改大重跑即可
 
 ## 如何调参
 
-改 [main.cpp](file:///c:/Learn/Games/Games101/2-4_path_tracing/main.cpp) 顶部的渲染参数区：
+改 [main.cpp](main.cpp) 顶部的渲染参数区：
 
 | 参数 | 默认值 | 说明 |
 |------|--------|------|
