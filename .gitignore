@@ -1,1 +1,18 @@
+# 构建目录
+*/build/
+*/out/
+
+# IDE 设置
+.vs/
+.idea/
+*.user
+*.suo
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# 生成输出
 *.png
+*.ppm
+*.gif
